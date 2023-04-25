@@ -1,0 +1,23 @@
+.header {
+    height: 100px;
+    background: #40485A;
+    /* background: #E3F6FF; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 9999;
+    opacity: 1;
+}
+
+.logo>img {
+    height: 90px;
+    width: auto;
+    object-fit: cover;
+}
+
+.name {
+    color: whitesmoke;
+}

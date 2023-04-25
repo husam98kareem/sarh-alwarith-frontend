@@ -1,0 +1,50 @@
+  .hospitality {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+      height: 100vh;
+      color: aliceblue;
+  }
+  
+  .card {
+      display: flex;
+      background: #918f84;
+      width: 400px;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px;
+      border-radius: 10px;
+      padding: 5px,
+  }
+  
+  .info__ {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .hospitality__form {
+      display: flex;
+      flex-direction: column !important;
+      gap: 10px;
+      width: 400px;
+  }
+  
+  .hospitality__form>input {
+      height: 30px;
+  }
+  
+  .hospitality__form>button {
+      height: 30px;
+      background: #918f84;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Noto Kufi Arabic', sans-serif;
+  }
+  
+  .select {
+      height: 40px;
+  }

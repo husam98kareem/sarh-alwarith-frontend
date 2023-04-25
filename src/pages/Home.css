@@ -1,0 +1,26 @@
+.home__page {
+    margin-top: 20px;
+    display: flex;
+    /* width: 50%; */
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    color: aliceblue;
+}
+
+.dept {
+    margin: 20px;
+    padding: 10px;
+    background: #918f84;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
